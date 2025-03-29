@@ -9,7 +9,27 @@
   #main {
     text-align: center;
   }
+
+  .date {
+    padding: 5px 55px;
+  }
   
+  i {
+    color: #08183B;
+  }
+  
+  p {
+    padding-bottom: 30px;
+  }
+  
+  a{
+    padding-bottom: 30px;
+  }
+  
+  a:visited {
+    color: #08183B;
+  }
+
 img {
   border: 5px solid  black;
   width: 100%;
@@ -31,29 +51,16 @@ img {
   }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   img {
     width: 600px;
     height: auto;
   }
 }
 
-  .date {
-    padding: 5px 55px;
+@media (min-width: 801px) {
+  img {
+    width: 750px;
+    height: auto;
   }
-  
-  i {
-    color: #08183B;
-  }
-  
-  p {
-    padding-bottom: 30px;
-  }
-  
-  a{
-    padding-bottom: 30px;
-  }
-  
-  a:visited {
-    color: #08183B;
-  }
+}
